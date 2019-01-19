@@ -1,0 +1,25 @@
+{
+  "name": "gitmetrics",
+  "version": "0.0.1",
+  "description": "Collect git repo metrics through the Github API",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "source .env && node js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeys7/gitmetrics.git"
+  },
+  "author": "Sam Coffey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeys7/gitmetrics/issues"
+  },
+  "homepage": "https://github.com/coffeys7/gitmetrics#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  }
+}
