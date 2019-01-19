@@ -40,6 +40,8 @@ See answers [here](#answers-to-questions)
 - [ ] Open/close issues
 - [ ] Open/close/merge pull requests
 
+---
+
 ### Answers to Questions
 
 **How to use npm with "vanilla" node project**
