@@ -24,6 +24,11 @@ To get closed/merged pull requests, add `?state=closed` to the request. For exam
 https://api.github.com/repos/coffeys7/gitmetrics-test/pulls?state=closed
 ```
 
+### Comments
+
+- Get comments on an issue or pull request with url at `data["_links"]["comments"]`
+- Get review comments on a pull request with url at `data["_links"]["review_comments"]`
+
 ### Questions
 
 See answers [here](#answers-to-questions)
