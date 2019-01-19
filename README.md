@@ -59,6 +59,8 @@ See answers [here](#answers-to-questions)
 
 ---
 
+### Answers to Questions
+
 **How to authorize access to org & private repos?**
 
 ```
