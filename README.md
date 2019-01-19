@@ -12,7 +12,7 @@ See answers [here](#answers-to-questions)
 
 **Node**
 
-- How to use npm with "vanilla" node project
+- How to use npm with "vanilla" node project ✅
 - How to read command line args
 
 **Github API**
