@@ -6,6 +6,12 @@ Testing with github API for collecting project metrics
 
 - [Github API (v3)](https://developer.github.com/v3/)
 
+### Caching
+
+Info like repo statistics is cached, so data may be stale or unavailable at times ([Github Statistics API](https://developer.github.com/v3/repos/statistics/)):
+
+> Computing repository statistics is an expensive operation, so we try to return cached data whenever possible. If the data hasn't been cached when you query a repository's statistics, you'll receive a `202` response; a background job is also fired to start compiling these statistics.
+
 ### Questions
 
 See answers [here](#answers-to-questions)
