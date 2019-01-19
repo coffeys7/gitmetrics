@@ -16,6 +16,14 @@ Info like repo statistics is cached, so data may be stale or unavailable at time
 
 The issues route returns both issues and pull requests. You can check if an "issue" is a pull request by checking for a `pull_request` key in its object.
 
+## Pull Requests
+
+To get closed/merged pull requests, add `?state=closed` to the request. For example:
+
+```
+https://api.github.com/repos/coffeys7/gitmetrics-test/pulls?state=closed
+```
+
 ### Questions
 
 See answers [here](#answers-to-questions)
