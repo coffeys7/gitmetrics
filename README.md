@@ -12,6 +12,10 @@ Info like repo statistics is cached, so data may be stale or unavailable at time
 
 > Computing repository statistics is an expensive operation, so we try to return cached data whenever possible. If the data hasn't been cached when you query a repository's statistics, you'll receive a `202` response; a background job is also fired to start compiling these statistics.
 
+### Issues
+
+The issues route returns both issues and pull requests. You can check if an "issue" is a pull request by checking for a `pull_request` key in its object.
+
 ### Questions
 
 See answers [here](#answers-to-questions)
