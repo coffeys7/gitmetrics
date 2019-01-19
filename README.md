@@ -8,6 +8,8 @@ Testing with github API for collecting project metrics
 
 ### Questions
 
+See answers [here](#answers-to-questions)
+
 **Node**
 
 - How to use npm with "vanilla" node project
