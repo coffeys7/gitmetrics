@@ -1,0 +1,7 @@
+{
+	"environment": {
+		"required": [
+			"GITHUB_ACCESS_TOKEN"
+		]
+	}
+}
